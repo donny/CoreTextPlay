@@ -1,0 +1,7 @@
+CoreTextPlay
+
+CoreTextPlay is an iPad app that allows quick testing and debugging of various Core Text metrics.
+
+Specifically, I made this to test various text metrics. See the following link: http://lists.apple.com/archives/coretext-dev/2011/Mar/msg00014.html
+
+The image is saved in the repository (cache).
