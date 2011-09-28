@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1A73856141A1314009397A1 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A73855141A1314009397A1 /* TextView.m */; };
+		F1AC4CC1141A104C00FBFB8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AC4CC0141A104C00FBFB8C /* UIKit.framework */; };
+		F1AC4CC3141A104C00FBFB8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AC4CC2141A104C00FBFB8C /* Foundation.framework */; };
+		F1AC4CC5141A104C00FBFB8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AC4CC4141A104C00FBFB8C /* CoreGraphics.framework */; };
+		F1AC4CCB141A104C00FBFB8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1AC4CC9141A104C00FBFB8C /* InfoPlist.strings */; };
+		F1AC4CCD141A104C00FBFB8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AC4CCC141A104C00FBFB8C /* main.m */; };
+		F1AC4CD1141A104C00FBFB8C /* CoreTextPlayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AC4CD0141A104C00FBFB8C /* CoreTextPlayAppDelegate.m */; };
+		F1AC4CD4141A104C00FBFB8C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AC4CD2141A104C00FBFB8C /* MainWindow.xib */; };
+		F1AC4CD7141A104C00FBFB8C /* CoreTextPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AC4CD6141A104C00FBFB8C /* CoreTextPlayViewController.m */; };
+		F1AC4CDA141A104C00FBFB8C /* CoreTextPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AC4CD8141A104C00FBFB8C /* CoreTextPlayViewController.xib */; };
+		F1AC6246141A124100AF4F15 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AC6245141A124100AF4F15 /* CoreText.framework */; };
+		F1AC6249141A124B00AF4F15 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AC6248141A124B00AF4F15 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1A73854141A1314009397A1 /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		F1A73855141A1314009397A1 /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		F1AC4CBC141A104C00FBFB8C /* CoreTextPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreTextPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AC4CC0141A104C00FBFB8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1AC4CC2141A104C00FBFB8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1AC4CC4141A104C00FBFB8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1AC4CC8141A104C00FBFB8C /* CoreTextPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreTextPlay-Info.plist"; sourceTree = "<group>"; };
+		F1AC4CCA141A104C00FBFB8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1AC4CCC141A104C00FBFB8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1AC4CCE141A104C00FBFB8C /* CoreTextPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreTextPlay-Prefix.pch"; sourceTree = "<group>"; };
+		F1AC4CCF141A104C00FBFB8C /* CoreTextPlayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextPlayAppDelegate.h; sourceTree = "<group>"; };
+		F1AC4CD0141A104C00FBFB8C /* CoreTextPlayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextPlayAppDelegate.m; sourceTree = "<group>"; };
+		F1AC4CD3141A104C00FBFB8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F1AC4CD5141A104C00FBFB8C /* CoreTextPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextPlayViewController.h; sourceTree = "<group>"; };
+		F1AC4CD6141A104C00FBFB8C /* CoreTextPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextPlayViewController.m; sourceTree = "<group>"; };
+		F1AC4CD9141A104C00FBFB8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CoreTextPlayViewController.xib; sourceTree = "<group>"; };
+		F1AC6245141A124100AF4F15 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F1AC6248141A124B00AF4F15 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1AC4CB9141A104C00FBFB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AC4CC1141A104C00FBFB8C /* UIKit.framework in Frameworks */,
+				F1AC4CC3141A104C00FBFB8C /* Foundation.framework in Frameworks */,
+				F1AC4CC5141A104C00FBFB8C /* CoreGraphics.framework in Frameworks */,
+				F1AC6246141A124100AF4F15 /* CoreText.framework in Frameworks */,
+				F1AC6249141A124B00AF4F15 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1AC4CB1141A104C00FBFB8C = {
+			isa = PBXGroup;
+			children = (
+				F1AC4CC6141A104C00FBFB8C /* CoreTextPlay */,
+				F1AC4CBF141A104C00FBFB8C /* Frameworks */,
+				F1AC4CBD141A104C00FBFB8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1AC4CBD141A104C00FBFB8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC4CBC141A104C00FBFB8C /* CoreTextPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1AC4CBF141A104C00FBFB8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC4CC0141A104C00FBFB8C /* UIKit.framework */,
+				F1AC4CC2141A104C00FBFB8C /* Foundation.framework */,
+				F1AC4CC4141A104C00FBFB8C /* CoreGraphics.framework */,
+				F1AC6245141A124100AF4F15 /* CoreText.framework */,
+				F1AC6248141A124B00AF4F15 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1AC4CC6141A104C00FBFB8C /* CoreTextPlay */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC4CCF141A104C00FBFB8C /* CoreTextPlayAppDelegate.h */,
+				F1AC4CD0141A104C00FBFB8C /* CoreTextPlayAppDelegate.m */,
+				F1AC4CD2141A104C00FBFB8C /* MainWindow.xib */,
+				F1AC4CD5141A104C00FBFB8C /* CoreTextPlayViewController.h */,
+				F1AC4CD6141A104C00FBFB8C /* CoreTextPlayViewController.m */,
+				F1AC4CD8141A104C00FBFB8C /* CoreTextPlayViewController.xib */,
+				F1AC4CC7141A104C00FBFB8C /* Supporting Files */,
+				F1A73854141A1314009397A1 /* TextView.h */,
+				F1A73855141A1314009397A1 /* TextView.m */,
+			);
+			path = CoreTextPlay;
+			sourceTree = "<group>";
+		};
+		F1AC4CC7141A104C00FBFB8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC4CC8141A104C00FBFB8C /* CoreTextPlay-Info.plist */,
+				F1AC4CC9141A104C00FBFB8C /* InfoPlist.strings */,
+				F1AC4CCC141A104C00FBFB8C /* main.m */,
+				F1AC4CCE141A104C00FBFB8C /* CoreTextPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1AC4CBB141A104C00FBFB8C /* CoreTextPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AC4CDD141A104C00FBFB8C /* Build configuration list for PBXNativeTarget "CoreTextPlay" */;
+			buildPhases = (
+				F1AC4CB8141A104C00FBFB8C /* Sources */,
+				F1AC4CB9141A104C00FBFB8C /* Frameworks */,
+				F1AC4CBA141A104C00FBFB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreTextPlay;
+			productName = CoreTextPlay;
+			productReference = F1AC4CBC141A104C00FBFB8C /* CoreTextPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1AC4CB3141A104C00FBFB8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F1AC4CB6141A104C00FBFB8C /* Build configuration list for PBXProject "CoreTextPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1AC4CB1141A104C00FBFB8C;
+			productRefGroup = F1AC4CBD141A104C00FBFB8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1AC4CBB141A104C00FBFB8C /* CoreTextPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1AC4CBA141A104C00FBFB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AC4CCB141A104C00FBFB8C /* InfoPlist.strings in Resources */,
+				F1AC4CD4141A104C00FBFB8C /* MainWindow.xib in Resources */,
+				F1AC4CDA141A104C00FBFB8C /* CoreTextPlayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1AC4CB8141A104C00FBFB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AC4CCD141A104C00FBFB8C /* main.m in Sources */,
+				F1AC4CD1141A104C00FBFB8C /* CoreTextPlayAppDelegate.m in Sources */,
+				F1AC4CD7141A104C00FBFB8C /* CoreTextPlayViewController.m in Sources */,
+				F1A73856141A1314009397A1 /* TextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1AC4CC9141A104C00FBFB8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AC4CCA141A104C00FBFB8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1AC4CD2141A104C00FBFB8C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AC4CD3141A104C00FBFB8C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F1AC4CD8141A104C00FBFB8C /* CoreTextPlayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AC4CD9141A104C00FBFB8C /* en */,
+			);
+			name = CoreTextPlayViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1AC4CDB141A104C00FBFB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F1AC4CDC141A104C00FBFB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1AC4CDE141A104C00FBFB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreTextPlay/CoreTextPlay-Prefix.pch";
+				INFOPLIST_FILE = "CoreTextPlay/CoreTextPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1AC4CDF141A104C00FBFB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreTextPlay/CoreTextPlay-Prefix.pch";
+				INFOPLIST_FILE = "CoreTextPlay/CoreTextPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1AC4CB6141A104C00FBFB8C /* Build configuration list for PBXProject "CoreTextPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AC4CDB141A104C00FBFB8C /* Debug */,
+				F1AC4CDC141A104C00FBFB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AC4CDD141A104C00FBFB8C /* Build configuration list for PBXNativeTarget "CoreTextPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AC4CDE141A104C00FBFB8C /* Debug */,
+				F1AC4CDF141A104C00FBFB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1AC4CB3141A104C00FBFB8C /* Project object */;
+}
